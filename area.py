@@ -5,11 +5,11 @@
 # This program uses user defined functions to calculate the area of a triangle
 
 
-def calculate_area(length, width):
+def calculate_area(base, height):
     # calculate area
 
     # process
-    area = length * width / 2
+    area = base * height / 2
 
     # output
     print("The area is {0} cm²".format(area))
